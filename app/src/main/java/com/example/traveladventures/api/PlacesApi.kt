@@ -7,6 +7,6 @@ interface PlacesAPI {
     @GET("place/textsearch/json")
     suspend fun getLocation(
         @Query("query") query: String,
-        @Query("key") key: String = "AIzaSyBhiVdTQHkEs1Yn6n5IEcBA3ptTKVX9R34"
+        @Query("key") key: String = "SECRET API KEY"
     ): PlaceResponse
 }
