@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- Back Button-->
+        <Button
+            android:id="@+id/backButton"
+            android:fontFamily="@font/josefinsans_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/app_primary_color"
+            android:text="Back"
+            android:padding="12dp" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/addPlanTitle"
+            android:fontFamily="@font/josefinsans_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="New Plan"
+            android:textSize="24sp" />
+
+        <!-- Delete Button-->
+        <Button
+            android:id="@+id/deleteButton"
+            android:fontFamily="@font/josefinsans_bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:padding="12dp"
+            android:backgroundTint="@color/app_primary_color"
+            android:text="Delete"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- plan name text -->
+            <EditText
+                android:id="@+id/plan_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/josefinsans_bold"
+                android:hint="Plan Name"
+                android:padding="16dp" />
+
+            <!-- body text-->
+            <EditText
+                android:id="@+id/body"
+                android:layout_width="match_parent"
+                android:layout_height="541dp"
+                android:background="@null"
+                android:fontFamily="@font/josefinsans_bold"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:padding="16dp"
+                android:hint="Plan your next adventure!"
+                android:scrollbars="vertical" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/addButton"
+        android:fontFamily="@font/josefinsans_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/app_primary_color"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="Add"
+        android:padding="12dp"/>
+
+</LinearLayout>

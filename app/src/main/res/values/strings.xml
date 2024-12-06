@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TravelAdventures</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Login</string>
+    <string name="trips_label">Trips</string>
+    <string name="add_button">Add</string>
+    <string name="fragment_managing_grid">Fragment Managing Grid</string>
+    <string name="error">Error</string>"
+    <string name="invalid_login_error">Invalid email or password</string>
+    <string name="add_trip_label">Add Trip</string>
+    <string name="delete_button">Delete</string>
+    <string name="edit_button">Edit</string>
+    <string name="edit_trip_label">Edit Trip</string>
+    <string name="note_title_label">Note Title</string>
+    <string name="add_location_label">Add Location</string>
+    <string name="trips">Trips</string>
+    <string name="plan">Plan</string>
+    <string name="map">Map</string>
+    <string name="profile">Profile</string>
+    <string name="add_plan_label">Add Plan</string>">
+</resources>
